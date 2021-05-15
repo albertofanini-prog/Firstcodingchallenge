@@ -1,0 +1,84 @@
+/* Sfondo della pagina */
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+/* Contenitore principale */
+.container {
+  background-color: black;
+  border-radius: 10px;
+  opacity: 0.6;
+  width: 850px;
+  height: 600px;
+  margin: auto;
+
+}
+
+/* Logo principale */
+.logo {
+  padding-top: 90px;
+  display: block;
+  margin-bottom: 2px;
+  margin-left: 330px;
+  width: 160px;
+}
+
+/* Titolo del contenuto */
+.logotext {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  color: #00FF00;
+  margin-bottom: 3px;
+  margin-top: 7px;
+}
+
+/* Barra della navigazione */
+.topnav {
+  background-color: #00FF00;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 9%;
+  margin-left: 9%;
+  padding: 10px;
+}
+
+/*Impostazioni dello sfondo di nav*/
+.topnav {
+  background-color: #00FF00;
+  margin-bottom: 10px;
+}
+
+/* Stile dei button in nav */
+#button{
+  height: 20px;
+  font-size: 12px;
+}
+
+/* Stile delle info sui monopattini */
+.infomonopattini{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 72px;
+  margin-top: 6px;
+  color: white;
+}
+
+/* Stile del luogo dei monopattini */
+.luogomonopattini{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 3px;
+  margin-top: 6px;
+  font-size: 15px;
+  color: white;
+}
+
+/* Stile delle info su stato della carica */
+.statocarica{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-top: 6px;
+  margin-bottom: 5px;
+  margin-left: 3px;
+  font-size: 12px;
+}
